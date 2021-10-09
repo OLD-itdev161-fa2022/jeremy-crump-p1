@@ -1,6 +1,11 @@
 import express from 'express';
+import connectDatabase from './config/db';
 
+//Init express
 const app = express();
+
+//connect to MongoDB
+connectDatabase();
 
 //API Endpoint
 app.get('/', (req, res)=>
