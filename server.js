@@ -46,5 +46,5 @@ app.post('/api/user',
 });
 
 //Listener
-const port = 3000;
+const port = 5000;
 app.listen(port,()=> console.log(`Express server running on ${port}`));
